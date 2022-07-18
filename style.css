@@ -1,0 +1,41 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /*background: linear-gradient(to bottom, #fff, #211917);*/
+  /*background: #211917;*/
+  background: #e4e4e4;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-logo {
+  width: 80%;
+  max-width: 300px;
+  margin: 2rem auto;
+}
+.main-container {
+  max-width: 600px;
+  text-align: center;
+}
+.main-container h1,
+.main-container h2 {
+  display: inline;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #211917;
+}
+.main-container a {
+  color: #6FA43E
+}
