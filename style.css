@@ -20,22 +20,34 @@ body {
 }
 
 .main-logo {
-  width: 80%;
-  max-width: 300px;
+  width: 60%;
+  max-width: 200px;
   margin: 2rem auto;
 }
 .main-container {
-  max-width: 600px;
+  max-width: 650px;
   text-align: center;
+  padding: 1rem;
 }
 .main-container h1,
 .main-container h2 {
   display: inline;
   line-height: 1.5;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #211917;
 }
 .main-container a {
   color: #6FA43E
+}
+
+@media screen and (min-width: 768px) {
+  .main-logo {
+    width: 70%;
+    max-width: 300px;
+  }
+  .main-container h1,
+  .main-container h2 {
+    font-size: 2rem;
+  }
 }
